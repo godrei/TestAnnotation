@@ -11,7 +11,7 @@ import Foundation
 
 struct TestAnnotationTests {
 
-    @Test("Example 2 bla bla") func example() async throws {
+    @Test("ExampleFunc") func example() async throws {
         let markerURL = URL(fileURLWithPath: NSTemporaryDirectory())
             .appendingPathComponent("TestAnnotationTests_example_marker")
         let fileManager = FileManager.default
