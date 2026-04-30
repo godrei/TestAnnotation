@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "86E1E63F-E609-48D0-BB73-DB50A6C2D26F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testRepetitionMode" : "retryOnFailure",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TestAnnotation.xcodeproj",
+        "identifier" : "165E47E42FA3826700288E8E",
+        "name" : "TestAnnotationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
